@@ -1,0 +1,114 @@
+@media (max-width: 1199.5px){
+    /* custom css */
+    #h1{
+        display: inline-block;
+    }
+    .header_wrapper .nav-item .nav-link{
+        font-family: var(--secondary-font);
+        font-size: 0.8375rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: var(--text-black);
+        display: inline-block;
+    }
+    /* blog */
+    .blog_wrapper .blog_details{
+        top: 0.3125rem;
+        left: 0.3125rem;
+        right: 0.3125rem;
+        bottom: 0.3125rem;
+    }
+}
+@media (max-width:991px){
+    
+    /* Navbar */
+    section {
+        padding: 4rem 0;
+    } 
+    .header-scrolled{
+        height: auto;
+    }
+    .header_wrapper .navbar-collapse{
+        margin-top: 0.125rem;
+    }
+    .header_wrapper .menu-navbar-nav{
+        text-align: center;
+        background-color: var(--bg-white);
+        padding-bottom: 0.9375rem;
+    }
+    .header_wrapper .nav-item .nav-link{
+        margin-top: 0.9375rem;
+    }
+    #h1{
+        display: inline-block;
+        line-height: 2.8rem;
+    }
+    #h2{
+        line-height: 2.8rem;
+    }
+    .navbar-toggler-icon{
+        color: var(--text-white);
+    }
+}
+@media (max-width:767px){
+    /* custom css */
+    section {
+        padding: 3rem 0;
+    } 
+    #h1{
+        display:inline;
+        line-height: 2rem;
+        padding-bottom: 0;
+    }
+    #h2{
+        line-height: 2rem;
+    }
+    .navbar-toggler-icon{
+        color: var(--text-white);
+    }
+}
+@media (max-width:575.5px){
+    section {
+        padding: 2rem 0;
+    } 
+    #h1{
+        display:inline;
+        line-height: 1.7rem;
+        padding-bottom: 0;
+    }
+    #h2{
+        line-height: 1.7rem;
+    }
+    .navbar-toggler-icon{
+        color: var(--text-white);
+    }
+    /* blogs */
+    .blog_wrapper .blog_details{
+        top: 2.1875rem;
+        left: 2.1875rem;
+        right: 2.1875rem;
+        bottom: 2.1875rem;
+    }
+    .footer_wrapper .newsletter{
+        margin: 1rem;
+    }
+}
+@media (max-width: 390px){
+    section {
+        padding: 1.5rem 0;
+    } 
+    #h1{
+        display:inline;
+        line-height: 1.4rem;
+        padding-bottom: 0;
+    }
+    #h2{
+        line-height: 1.4rem;
+    }
+    .navbar-toggler-icon{
+        color: var(--text-white);
+    }
+    .footer_wrapper .newsletter{
+        margin-right: 1rem;
+    }
+}
